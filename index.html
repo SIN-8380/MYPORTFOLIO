@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DE LARA | Portfolio</title>
+
+  <!-- Meta Description & SEO -->
+  <meta name="description"
+    content="DE LARA - Frontend & Fullstack Developer portfolio showcasing projects, skills, and contact information." />
+  <meta name="author" content="DE LARA" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="DE LARA | Portfolio" />
+  <meta property="og:description"
+    content="Frontend & Fullstack Developer portfolio showcasing projects, skills, and contact information." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/profile.jpg" />
+  <meta property="og:url" content="https://yourwebsite.com" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DE LARA | Portfolio" />
+  <meta name="twitter:description"
+    content="Frontend & Fullstack Developer portfolio showcasing projects, skills, and contact information." />
+  <meta name="twitter:image" content="images/profile.jpg" />
+</head>
+
+<body class="bg-[#0c0c0c] text-gray-200 font-sans cursor-default">
+  <header class="w-full py-6 fixed top-0 left-0 bg-[#0c0c0cf5] backdrop-blur-lg z-50 border-b border-gray-700/30">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center px-6">
+      <h1 class="text-4xl font-bold tracking-wide">DE LARA</h1>
+      <div class="space-x-6 text-gray-400 text-sm">
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#projects" class="hover:text-white transition">Projects</a>
+        <a href="#contact" class="hover:text-white transition">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero" class="min-h-screen flex items-center justify-center text-center px-6">
+    <div class="animate-fadeInUp">
+      <h2 class="text-5xl font-bold tracking-tight mb-4">Crafting Digital Experiences</h2>
+      <p class="text-gray-400 max-w-2xl mx-auto mb-8 text-lg">A dedicated developer forging clean interfaces and
+        resilient architectures designed for real-world impact.</p>
+      <a href="#projects"
+        class="px-6 py-3 bg-gray-100 text-black font-semibold tracking-wide rounded-lg hover:bg-gray-200 transition">View
+        Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="py-28 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-8">About Me</h3>
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="text-gray-300 leading-relaxed mb-4">I'm a front-end and full-stack developer specializing in creating
+          efficient, scalable solutions. My focus revolves around translating complex requirements into fluid interfaces
+          and robust systems.</p>
+        <p class="text-gray-300 leading-relaxed">I merge discipline with modern engineering practices to deliver work
+          that is clean, functional, and enduring.</p>
+      </div>
+      <div class="flex justify-center">
+        <img src="/images/profile.jpg" alt="Profile Image" class="w-64 h-64 object-cover rounded-full border border-gray-700 shadow-xl
+                    md:w-80 md:h-80 md:rounded-lg lg:w-96 lg:h-96" />
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills" class="py-28 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-12">Skills</h3>
+    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <!-- Skill Card -->
+      <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-700 shadow-xl flex flex-col items-center">
+        <i class="fab fa-html5 text-4xl text-orange-500 mb-4"></i>
+        <h4 class="text-lg font-semibold mb-2">HTML</h4>
+        <p class="text-gray-400 text-sm text-center">Semantic structure and responsive markup</p>
+      </div>
+  
+      <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-700 shadow-xl flex flex-col items-center">
+        <i class="fab fa-css3-alt text-4xl text-blue-500 mb-4"></i>
+        <h4 class="text-lg font-semibold mb-2">CSS</h4>
+        <p class="text-gray-400 text-sm text-center">Modern styling, Tailwind, Flexbox & Grid</p>
+      </div>
+  
+      <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-700 shadow-xl flex flex-col items-center">
+        <i class="fab fa-js-square text-4xl text-yellow-500 mb-4"></i>
+        <h4 class="text-lg font-semibold mb-2">JavaScript</h4>
+        <p class="text-gray-400 text-sm text-center">ES6+, DOM manipulation, async operations</p>
+      </div>
+  
+      <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-700 shadow-xl flex flex-col items-center">
+        <i class="fab fa-react text-4xl text-cyan-400 mb-4"></i>
+        <h4 class="text-lg font-semibold mb-2">React</h4>
+        <p class="text-gray-400 text-sm text-center">Component-based architecture and hooks</p>
+      </div>
+  
+      <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-700 shadow-xl flex flex-col items-center">
+        <i class="fab fa-node-js text-4xl text-green-500 mb-4"></i>
+        <h4 class="text-lg font-semibold mb-2">Node.js</h4>
+        <p class="text-gray-400 text-sm text-center">Server-side development and APIs</p>
+      </div>
+  
+      <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-700 shadow-xl flex flex-col items-center">
+        <i class="fas fa-database text-4xl text-blue-500 mb-4"></i>
+        <h4 class="text-lg font-semibold mb-2">SQL</h4>
+        <p class="text-gray-400 text-sm text-center">Database management, queries, and optimization</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects" class="py-28 px-0">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-bold mb-12 px-6">Projects</h3>
+
+      <div class="flex space-x-6 overflow-x-auto pb-4 no-scrollbar px-6">
+        <div class="min-w-[300px] bg-[#1a1a1a] p-5 rounded-xl border border-gray-700 shadow-xl">
+          <div class="h-40 bg-[#0f0f0f] rounded-lg mb-4 overflow-hidden">
+            <img src="images/project1.jpg" alt="Project 1" class="w-full h-full object-cover" />
+          </div>
+          <h4 class="text-xl font-semibold mb-1">Project One</h4>
+          <p class="text-gray-400 text-sm mb-3">A modern interface built for clarity and speed.</p>
+          <div class="flex flex-wrap gap-2 text-xs mb-4">
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">HTML</span>
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">CSS</span>
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">JS</span>
+          </div>
+          <a href="https://dailysets.vercel.app/" class="px-4 py-2 bg-gray-100 text-black rounded-lg font-semibold text-sm">View Project</a>
+        </div>
+
+        <div class="min-w-[300px] bg-[#1a1a1a] p-5 rounded-xl border border-gray-700 shadow-xl">
+          <div class="h-40 bg-[#0f0f0f] rounded-lg mb-4 overflow-hidden">
+            <img src="images/project2.jpg" alt="Project Image" class="w-full h-full object-cover">
+          </div>
+          <h4 class="text-xl font-semibold mb-1">Project Two</h4>
+          <p class="text-gray-400 text-sm mb-3">A full system engineered to optimize workflows.</p>
+          <div class="flex flex-wrap gap-2 text-xs mb-4">
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">HTML</span>
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">CSS</span>
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">JS</span>
+          </div>
+          <a href="#" class="px-4 py-2 bg-gray-100 text-black rounded-lg font-semibold text-sm">View Project</a>
+        </div>
+
+        <div class="min-w-[300px] bg-[#1a1a1a] p-5 rounded-xl border border-gray-700 shadow-xl">
+          <div class="h-40 bg-[#0f0f0f] rounded-lg mb-4 overflow-hidden">
+            <img src="images/project3.jpg" alt="Project Image" class="w-full h-full object-cover">
+          </div>
+          <h4 class="text-xl font-semibold mb-1">Project Three</h4>
+          <p class="text-gray-400 text-sm mb-3">A sleek platform demonstrating structured engineering.</p>
+          <div class="flex flex-wrap gap-2 text-xs mb-4">
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">HTML</span>
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">CSS</span>
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">JS</span>
+          </div>
+          <a href="#" class="px-4 py-2 bg-gray-100 text-black rounded-lg font-semibold text-sm">View Project</a>
+        </div>
+        <div class="min-w-[300px] bg-[#1a1a1a] p-5 rounded-xl border border-gray-700 shadow-xl">
+          <div class="h-40 bg-[#0f0f0f] rounded-lg mb-4 overflow-hidden">
+            <img src="images/project4.jpg" alt="Project Image" class="w-full h-full object-cover">
+          </div>
+          <h4 class="text-xl font-semibold mb-1">Project Three</h4>
+          <p class="text-gray-400 text-sm mb-3">A sleek platform demonstrating structured engineering.</p>
+          <div class="flex flex-wrap gap-2 text-xs mb-4">
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">HTML</span>
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">CSS</span>
+            <span class="px-2 py-1 bg-[#0f0f0f] rounded">JS</span>
+          </div>
+          <a href="#" class="px-4 py-2 bg-gray-100 text-black rounded-lg font-semibold text-sm">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="py-28 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-12">Testimonials</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+  
+      <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-700 shadow-xl">
+        <p class="text-gray-300 mb-6">A disciplined developer with precision and clarity in every output delivered.</p>
+        <div class="flex items-center gap-4 mt-4">
+          <img src="images/client1.jpg" class="w-12 h-12 rounded-full object-cover" />
+          <div>
+            <h4 class="font-semibold text-gray-100 leading-tight">Client One</h4>
+            <p class="text-gray-400 text-sm">Business Owner</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-700 shadow-xl">
+        <p class="text-gray-300 mb-6">A structured thinker capable of transforming ideas into fully functional systems.
+        </p>
+        <div class="flex items-center gap-4 mt-4">
+          <img src="images/client2.jpg" class="w-12 h-12 rounded-full object-cover" />
+          <div>
+            <h4 class="font-semibold text-gray-100 leading-tight">Client Two</h4>
+            <p class="text-gray-400 text-sm">Project Manager</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-700 shadow-xl">
+        <p class="text-gray-300 mb-6">The level of craftsmanship and precision is unmatched.</p>
+        <div class="flex items-center gap-4 mt-4">
+          <img src="images/client3.jpg" class="w-12 h-12 rounded-full object-cover" />
+          <div>
+            <h4 class="font-semibold text-gray-100 leading-tight">Client Three</h4>
+            <p class="text-gray-400 text-sm">Tech Lead</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <section id="contact" class="py-28 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6">Contact</h3>
+    <p class="text-gray-400 mb-10">Have a project in mind or want to collaborate? Let's discuss.</p>
+  
+    <div class="grid md:grid-cols-2 gap-12">
+  
+      <!-- Contact Info -->
+      <div class="flex flex-col gap-6">
+  
+        <div>
+          <h4 class="text-gray-300 text-sm uppercase tracking-wider mb-1">Email</h4>
+          <a href="mailto:walterjakedelara18@gmail.com" class="text-blue-500 hover:text-white transition">
+            walterjakedelara18@gmail.com
+          </a>
+        </div>
+  
+        <div>
+          <h4 class="text-gray-300 text-sm uppercase tracking-wider mb-1">Phone</h4>
+          <a href="tel:+639127766560" class="text-blue-500 hover:text-white transition">
+            +63 912 776 6560
+          </a>
+        </div>
+  
+        <div>
+          <h4 class="text-gray-300 text-sm uppercase tracking-wider mb-1">Location</h4>
+          <p class="text-blue-500">Philippines</p>
+        </div>
+  
+        <div class="flex gap-5 text-2xl text-gray-300 pt-2">
+          <a href="https://github.com/walterdelara" class="hover:text-white transition"><i class="fab fa-github"></i></a>
+          <a href="https://instagram.com/l.a.wltr" class="hover:text-white transition"><i
+              class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/walterjake.delara.54" class="hover:text-white transition"><i
+              class="fab fa-facebook"></i></a>
+        </div>
+  
+      </div>
+  
+      <!-- Contact Form -->
+      <form class="grid gap-6">
+        <input type="text" placeholder="Name" class="bg-[#141414] p-4 rounded-lg border border-gray-700 text-gray-200" />
+        <input type="email" placeholder="Email"
+          class="bg-[#141414] p-4 rounded-lg border border-gray-700 text-gray-200" />
+        <textarea placeholder="Message"
+          class="bg-[#141414] p-4 rounded-lg border border-gray-700 text-gray-200 h-32 resize-none"></textarea>
+        <button class="bg-gray-100 text-black py-3 rounded-lg font-semibold hover:bg-gray-200 transition">Send
+          Message</button>
+      </form>
+  
+    </div>
+  </section>
+
+<footer class="bg-[#0c0c0c] border-t border-gray-700/30 py-10 text-gray-400 text-sm">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+    <!-- Left: Copyright -->
+    <p>© 2025 DE LARA. All rights reserved.</p>
+
+    <!-- Right: Social icons -->
+    <div class="flex gap-4 text-xl text-gray-400">
+      <a href="https://github.com/walterdelara" class="hover:text-white"><i class="fab fa-github"></i></a>
+      <a href="https://instagram.com/l.a.wltr" class="hover:text-white"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/walterjake.delara.54" class="hover:text-white"><i class="fab fa-facebook"></i></a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  * {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fadeInUp {
+    animation: fadeInUp 1s ease forwards;
+  }
+</style>
+</body>
+</html>
